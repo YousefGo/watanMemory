@@ -8,38 +8,85 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="css/style.css" >
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
     <title>ذكريات وطن</title>
   </head>
   <body>
 
     <section>
-        <img src="img/sa.gif" style="width: 100%">
-    </section>
+      <img src="img/sa.gif" style="width: 100%">
+  </section>
 
     <!--  اللوحة الجدارية  -->
     <section style="background-image: url(/img/haweya_pic.jpg); width: 100%; height: 100%">
       <div class="" style="padding: 4%">
         <div class="row row-cols-1 row-cols-md-3 g-4 text-center" style="direction: rtl;">
-          {{-- @foreach ($posts as $post)
           <div class="col">
             <div class="card" style="direction: rtl; background-color: transparent; border: none">
               <div class="card-body" style="color: white;">
-                  <p>{{$post->text}}</p>
-                  <footer class="blockquote-footer" style="color: white"> {{$post->userName['name']}} <cite title="Source Title"></cite></footer>
+                  <p>وطني حيث لي محبٌّ ينطق بلساني وما أشعر، وطني حيث لي فؤاد يخفق وبه رايتي تنشر</p>
+                  <footer class="blockquote-footer" style="color: white">هند عدنان <cite title="Source Title"></cite></footer>
               </div>
             </div>
           </div>
-          @endforeach --}}
-         
-         
-       
-         
+          <div class="col">
+            <div class="card" style="direction: rtl; background-color: transparent; border: none">
+              <div class="card-body" style="color: white;">
+                <p>الوطن هو المكان الذي نحبّه، فهو المكان الذي قد تغادره أقدامنا لكن قلوبنا تظلّ فيه.</p>
+                 <footer class="blockquote-footer" style="color: white">يوسف محمد <cite title="Source Title"></cite></footer>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="direction: rtl; background-color: transparent; border: none">
+              <div class="card-body" style="color: white;">
+                  <p>تحن الكرام لأوطانها حنين الطيور لأوكارها.</p>
+                  <footer class="blockquote-footer" style="color: white">فاطمة اليامي <cite title="Source Title"></cite></footer>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="direction: rtl; background-color: transparent; border: none">
+              <div class="card-body" style="color: white;">
+                  <p>وطني يا من عشقت هواءك وتغزّلت بسمائك وراقصتُ نجومك وداعبتُ ترابك وتمايلتُ دلالاً في أحضانك، أحبّك يا وطني وأرتوي بمائك، وأشقي بعدك وأموت فداء لك.</p>
+                  <footer class="blockquote-footer" style="color: white">مازن العجيلي <cite title="Source Title"></cite></footer>
+              </div>
+            </div>
+          </div>
         </div>
-       
-        
-         
-         
+        <div class="row row-cols-1 row-cols-md-3 g-4 text-center" style="direction: rtl;">
+          <div class="col">
+            <div class="card" style="direction: rtl; background-color: transparent; border: none">
+              <div class="card-body" style="color: white;">
+                  <p>وطني حيث لي محبٌّ ينطق بلساني وما أشعر، وطني حيث لي فؤاد يخفق وبه رايتي تنشر</p>
+                  <footer class="blockquote-footer" style="color: white">هند عدنان <cite title="Source Title"></cite></footer>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="direction: rtl; background-color: transparent; border: none">
+              <div class="card-body" style="color: white;">
+                <p>الوطن هو المكان الذي نحبّه، فهو المكان الذي قد تغادره أقدامنا لكن قلوبنا تظلّ فيه.</p>
+                 <footer class="blockquote-footer" style="color: white">يوسف محمد <cite title="Source Title"></cite></footer>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="direction: rtl; background-color: transparent; border: none">
+              <div class="card-body" style="color: white;">
+                  <p>تحن الكرام لأوطانها حنين الطيور لأوكارها.</p>
+                  <footer class="blockquote-footer" style="color: white">فاطمة اليامي <cite title="Source Title"></cite></footer>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="direction: rtl; background-color: transparent; border: none">
+              <div class="card-body" style="color: white;">
+                  <p>وطني يا من عشقت هواءك وتغزّلت بسمائك وراقصتُ نجومك وداعبتُ ترابك وتمايلتُ دلالاً في أحضانك، أحبّك يا وطني وأرتوي بمائك، وأشقي بعدك وأموت فداء لك.</p>
+                  <footer class="blockquote-footer" style="color: white">مازن العجيلي <cite title="Source Title"></cite></footer>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -107,36 +154,6 @@
         </div>
       </div>
     </section>
- 
-<!--  إضافة عبارة إلى اللوحة الجدارية  -->
-    <section style="direction: rtl">
-      <div class="" style="padding: 0 4% 4% 4%">
-        <div class="row">
-          <div class="col">
-              <input type="file" class="form-control" id="customFile" />
-          </div>
-          <div class="col">
-            <select class="form-select" aria-label="Default select example">
-              <option selected>اختر مدينة الاحتفال</option>
-              <option value="1">الرياض</option>
-              <option value="2">جدة</option>
-              <option value="3">أبها</option>
-              <option value="3">ينبع</option>
-            </select>
-          </div>
-        </div>
-          <br>
-        <form class="row g-3">
-            <div class="mb-3">
-              <textarea class="form-control" placeholder="أضف عبارة وطنية هنا" id="floatingTextarea2" style="height: 100px"></textarea>
-            </div>
-            <div class="mb-3">
-              <button type="submit" class="btn" style="background-color: #1e8574; color: white">إضافة</button>
-            </div>
-        </form>
-      </div>
-    </section>
-
 
     <div class="line-space"></div>
     <div class="line-space"></div>

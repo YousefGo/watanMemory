@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Post;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  $posts= Post::all();
+    return view('welcome',compact('posts'));
 });
 
 Auth::routes();
@@ -22,8 +23,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-Route::get('t' , function() {
-   return view('test');
-});
 
 Route::resource('posts' , \App\Http\Controllers\PostController::class);

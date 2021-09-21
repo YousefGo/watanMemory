@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:200,300,400,500,700,800,900&subset=arabic');
+@import "~animate.css";
+body {
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+}
+
+

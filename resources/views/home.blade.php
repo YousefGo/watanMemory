@@ -8,6 +8,13 @@
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
+                    <form action="{{route('posts.store')}}" method="POST" enctype="multipart/form-data">
+                        @csrf
+                        <input type="text" name="text">
+                    
+                        <input type="file" name="image">
+                        <button>create</button>
+                    </form>
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
