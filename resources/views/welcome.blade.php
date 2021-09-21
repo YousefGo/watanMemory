@@ -36,6 +36,10 @@
        
          
         </div>
+        <section>
+          <a href="{{route('home')}}" class="btn btn-lg mt-4  " style="color: #1e8574; background-color: white"> للذكرى وتهنئة للوطن - اكتب </a>
+
+        </section>
        
         
          
@@ -45,18 +49,7 @@
     </section>
 
     <!--  إضافة عبارة إلى اللوحة الجدارية  -->
-    <section style="direction: rtl">
-      <div class="" style="padding: 4%">
-        <form class="row g-3">
-          <div class="col-12">
-              <textarea class="form-control" placeholder="أضف عبارة وطنية هنا" id="floatingTextarea2" style="height: 100px"></textarea>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn" style="background-color: #1e8574; color: white">إضافة</button>
-          </div>
-        </form>
-      </div>
-    </section>
+ 
 
     <!--  شاركنا وطنيتك بصورة  -->
     <section style="direction: rtl">
@@ -266,7 +259,22 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
+    <script>
+      var c=document.getElementById("myCanvas");
+   var ctx=c.getContext("2d");
+  var imageObj1 = new Image();
+  var imageObj2 = new Image();
+imageObj1.src = "1.png"
+imageObj1.onload = function() {
+   ctx.drawImage(imageObj1, 0, 0, 328, 526);
+   imageObj2.src = "2.png";
+   imageObj2.onload = function() {
+      ctx.drawImage(imageObj2, 15, 85, 300, 300);
+      var img = c.toDataURL("image/png");
+      document.write('<img src="' + img + '" width="328" height="526"/>');
+   }
+};
+    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>

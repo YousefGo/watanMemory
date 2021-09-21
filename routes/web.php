@@ -14,9 +14,10 @@ use App\Models\Post;
 */
 
 Route::get('/', function () {
-  $posts= Post::all();
+ 
+  $posts=  Post::orderBy('id', 'DESC')->get();
     return view('welcome',compact('posts'));
-});
+})->name('index');
 
 Auth::routes();
 

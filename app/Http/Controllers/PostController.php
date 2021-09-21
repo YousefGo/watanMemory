@@ -52,7 +52,8 @@ class PostController extends Controller
             'text' => $request->input('text'),
             'image' => $image ?? NULL,
         ]);
-        return back()->with('success' , 'create post successfully');
+        return redirect()->route('index');
+        // return back()->with('success' , 'create post successfully');
     }
 
     /**
