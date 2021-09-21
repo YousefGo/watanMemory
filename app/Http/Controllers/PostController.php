@@ -46,6 +46,7 @@ class PostController extends Controller
             $file = $request->file('image');
             $path = Storage::put('public/uploads', $request->file('image'));
             $image = $path;
+
         }
         auth()->user()->posts()->create([
             'text' => $request->input('text'),
