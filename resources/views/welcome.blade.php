@@ -21,7 +21,7 @@
     <section style="background-image: url(/img/haweya_pic.jpg); width: 100%; height: 100%">
       <div class="" style="padding: 4%">
         <div class="row row-cols-1 row-cols-md-3 g-4 text-center" style="direction: rtl;">
-          {{-- @foreach ($posts as $post)
+          @foreach ($posts as $post)
           <div class="col">
             <div class="card" style="direction: rtl; background-color: transparent; border: none">
               <div class="card-body" style="color: white;">
@@ -30,7 +30,7 @@
               </div>
             </div>
           </div>
-          @endforeach --}}
+          @endforeach
          
          
        
