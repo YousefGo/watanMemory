@@ -101,7 +101,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="" style="padding: %">
         <div class="" style="direction: rtl">
             <div class="row">
                 <div class="col-6">
