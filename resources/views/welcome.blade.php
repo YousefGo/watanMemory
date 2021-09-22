@@ -102,6 +102,9 @@
     </section>
 
     <section class="" style="padding: 3%">
+        <h3>شاركناصورتك بخلفية شفافة</h3>
+        <hr style="height: 4px; color: lightgray; width: 250px">
+        <br>
         <div class="" style="direction: rtl">
             <div class="row">
                 <div class="col-6">
@@ -119,7 +122,7 @@
                     <div class="card" style="">
                         <img src="{{asset('img/jeddah1.gif')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><i class='fas fa-map-marker-alt' style='font-size:24px'></i> جدة]</h5>
+                            <h5 class="card-title"><i class='fas fa-map-marker-alt' style='font-size:24px'></i جدة]</h5>
                             <p class="card-text">
                                 الاعتزاز إلى الوطن خالد، فلا أحد يعرف شيئًا يستحقُّ الاعتزاز أكثر منه.
                             </p>
@@ -289,6 +292,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script>
       var c=document.getElementById("myCanvas");
    var ctx=c.getContext("2d");
