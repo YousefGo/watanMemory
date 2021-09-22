@@ -103,22 +103,28 @@
 
     <section>
         <div class="" style="direction: rtl">
-            <div class="card" style="">
-                <img src="{{asset('img/ryadh.gif')}}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><i class='fas fa-map-marker-alt' style='font-size:24px'></i> الرياض</h5>
-                    <p class="card-text">
-                        الاعتزاز إلى الوطن خالد، فلا أحد يعرف شيئًا يستحقُّ الاعتزاز أكثر منه.
-                    </p>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" style="">
+                        <img src="{{asset('img/ryadh.gif')}}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class='fas fa-map-marker-alt' style='font-size:24px'></i> الرياض</h5>
+                            <p class="card-text">
+                                الاعتزاز إلى الوطن خالد، فلا أحد يعرف شيئًا يستحقُّ الاعتزاز أكثر منه.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="">
-                <img src="{{asset('img/jeddah1.gif')}}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><i class='fas fa-map-marker-alt' style='font-size:24px'></i> جدة]</h5>
-                    <p class="card-text">
-                        الاعتزاز إلى الوطن خالد، فلا أحد يعرف شيئًا يستحقُّ الاعتزاز أكثر منه.
-                    </p>
+                <div class="col-6">
+                    <div class="card" style="">
+                        <img src="{{asset('img/jeddah1.gif')}}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class='fas fa-map-marker-alt' style='font-size:24px'></i> جدة]</h5>
+                            <p class="card-text">
+                                الاعتزاز إلى الوطن خالد، فلا أحد يعرف شيئًا يستحقُّ الاعتزاز أكثر منه.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
