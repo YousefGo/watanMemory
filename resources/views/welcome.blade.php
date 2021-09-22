@@ -31,25 +31,25 @@
             </div>
           </div>
           @endforeach
-         
-         
-       
-         
+
+
+
+
         </div>
         <section>
           <a href="{{route('home')}}" class="btn btn-lg mt-4  " style="color: #1e8574; background-color: white"> للذكرى وتهنئة للوطن - اكتب </a>
 
         </section>
-       
-        
-         
-         
+
+
+
+
         </div>
       </div>
     </section>
 
     <!--  إضافة عبارة إلى اللوحة الجدارية  -->
- 
+
 
     <!--  شاركنا وطنيتك بصورة  -->
     <section style="direction: rtl">
@@ -100,9 +100,24 @@
         </div>
       </div>
     </section>
- 
+
+    <section>
+        <div class="">
+            <div class="card" style="width: 18rem;">
+                <img src="{{asset('img/ryadh.gif')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><i class='fas fa-map-marker-alt' style='font-size:24px'></i> الرياض</h5>
+                    <p class="card-text">
+                        الاعتزاز إلى الوطن خالد، فلا أحد يعرف شيئًا يستحقُّ الاعتزاز أكثر منه.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <!--  إضافة عبارة إلى اللوحة الجدارية  -->
     <section style="direction: rtl">
+
       <div class="" style="padding: 0 4% 4% 4%">
         <div class="row">
           <div class="col">
