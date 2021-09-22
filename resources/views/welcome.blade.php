@@ -102,8 +102,8 @@
     </section>
 
     <section class="" style="padding: 3%">
-        <h3>شاركناصورتك بخلفية شفافة</h3>
-        <hr style="height: 4px; color: lightgray; width: 250px">
+        <h3 style="direction: rtl">شاركناصورتك بخلفية شفافة</h3>
+        <hr style="height: 4px; color: lightgray; width: 250px;direction: rtl">
         <br>
         <div class="" style="direction: rtl">
             <div class="row">
